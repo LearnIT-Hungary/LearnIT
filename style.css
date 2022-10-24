@@ -5,3 +5,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h1 {
+    text-align: center;
+    margin: 3rem 0 1.6rem 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+main section {
+    width: min(98%, 1400px);
+    margin-inline: auto;
+}
+
+section p {
+    max-width: 75ch;
+    padding: 0.2rem 0.35rem;
+}
+
+section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.6rem 0;
+}
+
+section table, th, td {
+    border: 1px solid;
+}
+
+section th, td {
+    padding: 0.24rem 0.32rem;
+}
+
+section ul, ol {
+    padding: 1rem 2rem;
+}
